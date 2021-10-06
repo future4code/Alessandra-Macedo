@@ -9,7 +9,7 @@
 b.  null
 c.  11
 d.  3
-e.  Array(11)0: 31: 192: 53: 64: 75: 86: 97: 108: 119: 1210: 13length: 11[[Prototype]]: Array(0)
+e.  3, 19, 5, 6, 7, 8, 9, 10, 11, 12, 13
 f.  9 */
 
 
@@ -27,13 +27,13 @@ const emailDoUsuario = prompt("Digite seu e-mail?")
 
 console.log("O email " + emailDoUsuario + " foi cadastrado com sucesso. Seja bem vinda(o)," + nomeDoUsuario + "!")*/
 
-// 2 - Respostas: 
-// a. 
-/*
+/* 2 - Respostas: 
+
+a . 
 const comidasPreferidas = ["churrasco", "lasanha", "panqueca", "almondengas", "camarão"]
 console.log(comidasPreferidas)
 
-// b.
+b .
 console.log("Essas são as minhas comidas preferidas: ")
 console.log(comidasPreferidas[0])
 console.log(comidasPreferidas[1])
@@ -41,13 +41,13 @@ console.log(comidasPreferidas[2])
 console.log(comidasPreferidas[3])
 console.log(comidasPreferidas[4])
 
-// c.
+c .
 const comidaPreferidaDoUsuario = prompt("Qual a sua comida preferida?")
 comidasPreferidas[1] = comidaPreferidaDoUsuario
 console.log(comidasPreferidas)
 */
 
-// 3 -
+// 3 - Respostas:
 // a.
 const listaDeTarefas = []
 console.log(listaDeTarefas)
@@ -78,4 +78,4 @@ console.log(listaDeTarefas)
 
 
 
-//-------------------------------------------FIM--------------------------------------------------------
+//-------------------------------------------FIM------------------------------------------------------------
