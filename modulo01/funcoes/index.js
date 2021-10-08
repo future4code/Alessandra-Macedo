@@ -1,11 +1,18 @@
 //----------------Exercícios de Funções aluna: Alessandra Ferreira----------------
 
 
+<<<<<<< HEAD
 
 
 
 /*------------------Exercícios de leitura de Código--------------------
 
+=======
+/*------------------Exercícios de leitura de Código-------------------------------
+
+
+
+>>>>>>> ac3900229ce67da58b5bd644d537fd09cf3926d9
 //1.  a) O que vai ser impresso no console?
 // 10 e 50
 
@@ -35,12 +42,18 @@ Não apareceria nada no console, pois foi retirado da função.
 /*
 
 
+<<<<<<< HEAD
 
 
 //------------------------Exercícios de escrita de Código-----------------------------------------------
 
 
 
+=======
+//------------------------Exercícios de escrita de Código-----------------------------------------------
+
+
+>>>>>>> ac3900229ce67da58b5bd644d537fd09cf3926d9
 1. a) A função não deve receber nenhum parâmetro e deve imprimir uma mensagem falando 
 algumas informações sobre você:
 
