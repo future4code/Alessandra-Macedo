@@ -20,8 +20,8 @@ function imprimeMensagem() {
 function calculaAreaRetangulo() {
   // implemente sua lógica aqui
   const altura = Number(prompt("Digite a altura do retangulo?"))
-const largura = Number(prompt("Digite largura do retangulo?"))
-return console.log(altura * largura)
+  const largura = Number(prompt("Digite largura do retangulo?"))
+  return console.log(altura * largura)
 
 }
 
@@ -39,9 +39,7 @@ function calculaIMC(peso, altura) {
   // implemente sua lógica aqui
   
   calculaIMC = (peso) / (altura**2)
-return calculaIMC
-  
-
+  return calculaIMC
 }
 
 
@@ -53,7 +51,7 @@ function imprimeInformacoesUsuario() {
   const idade = prompt("Digite a sua idade?")
   const email = prompt("Digite o seu email?")
 
-    return console.log(`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}.`)
+  console.log(`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}.`)
 }
 
 // EXERCÍCIO 05
@@ -79,7 +77,7 @@ function retornaStringEmMaiuscula(string) {
 function calculaIngressosEspetaculo(custo, valorIngresso) {
   // implemente sua lógica aqui
   
-return custo / valorIngresso
+  return custo / valorIngresso
 }
 calculaIngressosEspetaculo()
 
