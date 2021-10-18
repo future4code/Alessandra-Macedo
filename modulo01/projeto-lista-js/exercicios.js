@@ -79,7 +79,7 @@ function calculaIngressosEspetaculo(custo, valorIngresso) {
   
   return custo / valorIngresso
 }
-calculaIngressosEspetaculo()
+  calculaIngressosEspetaculo()
 
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
@@ -119,12 +119,23 @@ function checaIgualdadeDesconsiderandoCase(string1, string2) {
   const igual = string1.toUpperCase() === string2.toUpperCase()
   return igual
 }
-console.log(igual)
+  console.log(igual)
 
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
   // implemente sua lógica aqui
+  const anoAtual = Number(prompt("Qual o ano atual?"))
+  const anoNascimento = Number(prompt("Qual o ano que você nasceu?"))
+  const anoEmissao = Number(prompt("Qual o ano de emissão do documento?"))
 
+  const idade = anoAtual - anoNascimento 
+  const tempoDeCarteira = anoAtual - anoEmissao
+
+  const cond1 = idade <= 20 && tempoDeCarteira >= 5
+  const cond2 = idade > 20 && idade <= 50 && tempoDeCarteira >= 10
+  const cond3 = idade > 50 && tempoDeCarteira >= 15
+
+  console.log(cond1 || cond2 || cond3) 
 }
 
 // EXERCÍCIO 14
