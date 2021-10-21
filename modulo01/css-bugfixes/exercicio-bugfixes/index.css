@@ -34,11 +34,13 @@ img {
 }
 
 div>p:first-child {
-    display: inline;
+    display: flex;
+    justify-content: center;
 }
 
 div img {
-    background: black;
+    background: white;
+
 }
 
 .botao-amarelo {
@@ -59,6 +61,7 @@ div img {
 .container {
     height: 500px;
     text-align: center;
+    
 }
 
 .icone {
@@ -79,17 +82,23 @@ div img {
 
 #container-de-descricao>ol {
     padding: 15px 0px;
+    
+    
 }
 
 #container-para-comprar {
     background-color: #e7eb90;
+    min-height: min-content;
+   
 }
 
 #container-para-comprar>p {
     color: #c44f00;
     padding: 100px 0;
     font-size: 60px;
+    
 }
+
 
 
 /**
