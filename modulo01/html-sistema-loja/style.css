@@ -1,0 +1,105 @@
+.titulo {
+  background-color: palegreen;
+  height: 85px;
+  text-align: center;
+  padding: 5px;
+}
+
+.titulo-texto {
+  color: blue;
+  height: 20px;
+}
+
+h2 {
+  margin: 20px;
+}
+
+
+.paginas {
+  height: 50px;
+  text-align: center;
+  display: block;
+}
+
+.paginas > a {
+  width: 10%;
+  float: left;
+  border: 2px solid cadetblue;
+  background-color: rgba(245, 153, 153, 0.548);
+  text-align: center;
+  margin: 8px 0 9px 5px;
+  padding: 8px;
+  border-radius: 50px;
+
+}
+
+
+a:hover {
+  color: black;
+  background-color: coral;
+}
+
+.conteudo {
+  height: 200px;
+}
+.rodape {
+  background-color: palegreen;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.rodape > p {
+  margin: auto;
+}
+
+.img-rodape {
+  width: 188%;
+  float: right;
+  text-align: center;
+  position: relative;
+}
+
+
+table {
+  text-align: center;
+  margin: auto;
+}
+
+td, th {
+  padding: 10px;
+  border: 1px solid grey;
+}
+td > img {
+  height: 100px;
+}
+
+.produtos {
+  border: 1px dashed darkslategray;
+  background-color: rgb(218, 216, 216);
+  margin-left: 20px;
+  width: 800px;
+}
+.formulario {
+  margin: 15px;
+}
+
+.formulario:last-of-type {
+  text-align: center;
+}
+
+.formulario > input {
+  height: 25px;
+}
+
+#link-foto, #descricao {
+  width: 500px;
+}
+
+.formulario > button {
+  padding: 10px 20px;
+  border: 1px solid cadetblue;
+  background-color: rgb(245, 153, 153, 0.548);
+  border-radius: 10px;
+}
