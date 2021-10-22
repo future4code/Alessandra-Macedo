@@ -33,9 +33,11 @@ img {
     width: 100px;
 }
 
-div>p:first-child {
-    display: flex;
-    justify-content: center;
+div>p{
+    width:200px;
+    margin-left: 560px;
+    word-wrap: break-word;
+    
 }
 
 div img {
