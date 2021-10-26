@@ -36,4 +36,26 @@ nav {
   background-color: #f2d0e0;
   padding: 10px 10px 10px 20px;
 }
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+  margin: 20px;
+}
+.produtos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 5px darkgray;
+  text-align: center;
+}
+
+.img {
+  width: 100%;
+}
+h2, p {
+  padding: 10px;
+}
 
