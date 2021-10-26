@@ -32,4 +32,8 @@ header {
   padding-bottom: 4px;
   margin-right: 10px;
 }
+nav {
+  background-color: #f2d0e0;
+  padding: 10px 10px 10px 20px;
+}
 
