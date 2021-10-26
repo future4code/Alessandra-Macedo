@@ -60,6 +60,7 @@ h3{
   margin-top: 10px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: blueviolet;
+  margin-right: 200px;
 }
 
 div img{
@@ -79,3 +80,4 @@ video{
   width: 50%;
   border-radius: 5px;
 }
+
