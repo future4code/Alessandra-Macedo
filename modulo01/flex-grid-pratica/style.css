@@ -10,7 +10,7 @@ body{
 }
 
 header{
-  color: white;
+  color: black;
   grid-column: 1/-1;
   background-color: #07889B;
   display: flex;
@@ -30,7 +30,7 @@ header{
 }
 
 input{
-  background-color: linen;
+  background-color: white;
   width: 30%;
   height: 30px;
   border-radius: 50px;
@@ -47,7 +47,7 @@ main{
 
 .card-container{
   color: mediumseagreen;
-  background-color: linen;
+  background-color:white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,7 +68,7 @@ div img{
 }
 
 .area-midia{
-  background-color: linen;
+  background-color:black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -81,3 +81,11 @@ video{
   border-radius: 5px;
 }
 
+footer{
+  color: black;
+  grid-column: 1/-1;
+  background-color: #07889B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
